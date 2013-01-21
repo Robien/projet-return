@@ -1,0 +1,97 @@
+#summary Document de conception partie 2 : Univers du jeu
+
+=Univers du jeu=
+
+==Vue d’ensemble==
+Dans un univers empreint de trouble suite à des événements cataclysmiques. Ils ont détruit les civilisations comme nous les connaissons. Il n’est plus question de vivre mais de survivre.
+
+==Univers vivant==
+Le monde qui vous entour regorge de vie qui on réussit à survivre à la catastrophe ou qui on vue le jour suite à celle-ci. Le monde évoluera de lui-même et aussi en fonction des actions des personnages. Toutes créature auront un comportement plus ou mon développé, certaine auront tendance à vouloir agrandir leur emprise sur le monde en détruisant les autres. Les menaces qui guettent le joueur sont donc nombreuses.
+
+==Survivre==
+Le joueur devra lutter pour pouvoir survivre. Il devra tenir compte de plusieurs facteurs qui pourraient le mener à une mort certaine. On peut notamment citer les attaques plus ou moins organisé des zombies et des bandits sur le camp de base, mais aussi la gestion de ces ressources : eau, nourriture…
+==Le Monde Physique==
+
+====Vue d’ensemble====
+
+Le monde est un vaste étendu contenant notamment un grand désert entouré de montagne ou de fleuve/mer pour délimiter. La carte du monde est générée aléatoirement au commencement de la partie. Elle comprend plusieurs type de région : désertique, verdoyante (rare), montagneuse, marécageuse.
+
+====Endroits Clé====
+
+Malgré la génération aléatoire du monde, un certain nombre d’endroit clé seront positionné dans le monde.
+
+  * Camp de base : tentative de recréer une civilisation, c’est ici que le joueur commencera son aventure et qu’il sera le plus en sécurité. C’est un camp fortifié. On y trouve quelques survivants et quelques habitations.
+  * Camps de bandits : camps remplie de bandit, et contenant tout ce qu’il réussisse à piller et extorquer des survivants qui se trouvent sur leur route. C’est un camp fortifier et gardé par des bandits.
+  * Ruines : On trouve un peu partout dans le monde des ruines de bâtiment ou village.
+  * Abris Atomique : ils sont en principe atterré mais une fois découverts et explorer, ils peuvent être remplie d’objets bien conservé voir être encore habités.
+
+====Voyage====
+
+Les moyens de transport sont la marche à pied <font color=#FFAA00>et éventuellement l’utilisation de véhicule</font>.
+
+====Echelle (Scale)====
+
+Le monde est d’une taille importante, il comporte plusieurs régions de flore différente.
+
+==== <font color=#FFAA00> Météo </font> ====
+
+Les conditions climatiques pourront changer et influencerons sur le jeu du joueur. Les météo dépendent aussi du type de région : il pleuvra rarement dans le désert ou alors ce sera des pluies acides.
+
+====Jour et nuit====
+
+La différence jour/nuit est très importante. L’univers est très diffèrent suivant si l’on est le jour ou la nuit. Par exemple les zombies ont tendance à se rassembler et à attaquer toute forme de vie pendant la nuit tandis que le jour ils ont plutôt tendance à errer dans but, voir à se cacher. 
+
+====Temps====
+
+Le temps est important car il est directement lié au cycle jour-nuit. Le joueur aura dont la possibilité de connaitre l’heure qu’il est dans le jeu (au moyen d’objet qu’il trouvera ou fabriquera). Le temps sera continu mais accélérer pour qu’une journée dure entre 30 et 60mn. 
+
+==Système de Rendu==
+Le moteur de rendu utiliser sera le moteur 3D libre Ogre3D. Il permet le fenêtrage, la gestion de l’interface et le rendu 2D/3D.
+==Camera==
+====Vue d’ensemble====
+
+La camera proposera une vue à la première personne. Le joueur ne verra que ses mains et les objets qu’il tient. Le mouvement vertical de la camera offrira un degré de liberté d’environ 120°. Le mouvement horizontal offrira quant à lui un degré de liberté d’environ 180°.
+ 
+==== <font color=#FFAA00> Observer </font> ====
+
+Le joueur pourra activer la vue observation pour voir ce qui se passe autour de lui. Cette vue à la troisième personne lui permettra de voir son personnage et de regarder de tous les côtés.
+Lorsque le personnage sera en train de mourir ou mort la camera sera bloquée en se mode de vue.
+ 
+====Viser avec un objet====
+
+Certains objets peuvent utiliser une vision différente. C’est le cas de certaines armes qui permettent de voir avec précision comme les snipers. Les jumelles aussi peuvent permettre de voir plus loin. La vue du personnage sera adaptée pour ces objets.
+
+==Moteur du jeu==
+====Vue d’ensemble====
+
+Le moteur devrait être créé pour être plus procédural possible pour rendre le jeu toujours imprévisible et différent et ainsi laisser la plus grande liberté aux joueurs.
+ 
+====Découpage du monde====
+
+Le moteur de jeu ne gère que la partie du monde autour du joueur. L’environnement sera découpé en partie. Lorsqu’un joueur s’approchera d’une nouvelle zone il chargera les éléments propres à cette partie : monstres, bâtiments …
+
+====Attaque de zombis/bandits====
+
+Les zombis et les bandits attaqueront le camp de base assez régulièrement de façon plus ou moins organiser et nombreux. Ces attaques viseront à détruire le camp. Le joueur devra donc pour garder cette zone (ou il peut échanger des objets contre d’autres, se soigner, stocker ses affaires) aider les survivant à améliorer les défenses et se battre pour défendre le camp lors des attaques.
+
+====Eau et fluide====
+
+Le moteur de jeu doit gérer des fluides comme de l’eau plus ou moins propre.
+
+====Particules====
+
+Le moteur de jeu doit gérer les particules.
+
+==== <font color=#008800> Détection de collision </font> ====
+
+==Éclairage des modèles==
+====Vue d’ensemble====
+Il faut distinguer deux type d’éclairage : ceux venant de l’environnement et ceux lié au joueur.
+
+====Journée====
+
+L’éclairage est une lumière ambiante dû à la lumière du soleil. Pour les zones comme les cavernes et bunker il n’y a pas de lumière ambiante mais seulement des lampes ou des feux de camp.
+
+====Nuit====
+
+Durant la nuit les éclairages vienne des lampes et feu de camps que l’on peut trouver dans le camp de base et l’univers. Le joueur peut s’équiper d’une lampe torche qui crée un éclairage en forme de cône devant lui qui suit les mouvements de sa main. Un faible éclairage peut aussi venir de la lune avec une intensité variant en fonction si la lune est pleine ou non. On peut aussi imaginé qu’il existe des plantes et des créatures émettant de la lumière.	
