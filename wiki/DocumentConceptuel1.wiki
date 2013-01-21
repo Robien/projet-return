@@ -1,0 +1,55 @@
+#summary document de conception partie aperçu du jeu
+#labels Phase-Design
+
+= Aperçu du jeu =
+==Questions Communes==
+====Qu’est-ce que ce jeu?====
+Ce jeu est un role-play-game à la première personne. Vous devrez tenter de survivre face dans un monde post-apocalyptique où toute sorte de bête et de monstres veulent votre mort.
+
+====Où le jeu prend-il place?====
+L’environnement du jeu s’inscrit dans un monde post-apocalyptique. Vous vous retrouverez au milieu d’un environnement hostile où le seul endroit à peu près sûr sera le camp de réfugiés. C’est ici que vous commencerez le jeu. 
+
+====Que dois-je contrôler?====
+Vous contrôlez un personnage humain. Vous déciderez de ses déplacements et action en temps réel.
+
+====Combien de personnages dois-je contrôler?====
+Vous contrôler un seul personnage par partie. Une partie correspond à la vie du personnage, elle est unique ! A vous de tout faire pour rester le plus longtemps en vie. Vous cohabiterez avec d’autre personnage contrôlé par une intelligence artificielle du jeu (ou par d’autre joueur).
+
+====Quel est l’objectif principal?====
+L’objectif principal du jeu est de survivre dans l’univers hostile qui vous entoure. Au-delà de ce premier objectif une autre grande composante est le développement : de votre personnage ainsi que de l’environnement dans lequel vous vivez. Ce développement permettra de rendre votre environnement plus sûr et de mieux assuré votre sécurité et celle de vos compagnons.
+
+====Qu’est-ce qui est différent des autres jeux?====
+Dans ce jeu vous avez une grande liberté et vos actions peuvent changer votre environnement. Vous avez comme but de survivre et de recréer une civilisation. De plus vous n’avez qu’une seul vie ainsi si votre personnage venait à être dévorer par un monstre ou à mourir de faim, la partie ce termine pour vous et vous n’avez plus qu’à tout recommencer.
+
+==Possibilités==
+====Possibilités Général====
+
+  * Monde énorme.
+  * Monde Aléatoirement généré.
+  * Monde modifiable
+  * Monde en constant changement.
+  * Graphismes 3D.
+  * Couleurs 32-bit.
+
+====Gameplay====
+
+  * Combat à mains nues, avec des armes blanches ou arme à feu.
+  * Fouille du monde pour trouver des objets.
+  * Possibilité de transformer des objets pour en créer de nouveau.
+  * Possibilité de créer des bâtiments.
+  * Editeur de personnage.
+  * Possibilité d’équiper son personnage avec des objets
+  * Possibilité de troquer des objets avec les autres joueurs.
+  * Possibilité de vendre des objets au PNJ.
+  * Possibilité d’évolution de votre personnage avec l’expérience.
+  * <font color=#FFAA00>Possibilité de conduire des véhicules. </font>
+  * Défense du camp contre les attaques de Zombies ou de bandits.
+
+
+====<font color=#FF0000>Possibilités Multi-joueurs </font>====
+
+  * Supporte une vingtaine de joueurs.
+  * Mode de jeu en coopération.
+  * Possibilité de joueur entre ami sur serveur privé.
+  * Difficulté adapté au nombre de joueur.
+  * Discussions par chat vocal avec les personnages proches du votre.
