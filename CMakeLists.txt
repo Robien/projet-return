@@ -7,6 +7,24 @@ IF(WIN32)
 	message("vive les pommes")
 ENDIF(WIN32)
 
+
+if(UNIX)
+	if(EXISTS "/usr/local/lib/OGRE/cmake")
+
+	  set(CMAKE_MODULE_PATH "/usr/local/lib/OGRE/cmake/;${CMAKE_MODULE_PATH}")
+	  set(OGRE_SAMPLES_INCLUDEPATH "/usr/local/share/OGRE/samples/Common/include/") # We could just *assume* that developers uses this basepath : /usr/local
+
+	elseif(EXISTS "/usr/lib/OGRE/cmake")
+
+	  set(CMAKE_MODULE_PATH "/usr/lib/OGRE/cmake/;${CMAKE_MODULE_PATH}")
+	  set(OGRE_SAMPLES_INCLUDEPATH "/usr/share/OGRE/samples/Common/include/") # Otherwise, this one
+
+	else ()
+	  message(SEND_ERROR "Failed to find module path.")
+	endif(EXISTS "/usr/local/lib/OGRE/cmake")
+endif(UNIX)
+
+
 #nom du projet
 project (return)
 set(CMAKE_CXX_FLAGS "-march=native ")
@@ -26,6 +44,15 @@ add_definitions( -DBUILD_TYPE )
 endif (${CMAKE_BUILD_TYPE} STREQUAL Debug)
 
 
+#ogre
+find_package(OGRE REQUIRED)
+find_package(OIS REQUIRED)
+ 
+if(NOT OIS_FOUND)
+	message(SEND_ERROR "Failed to find OIS.")
+endif()
+
+
 # boost
 SET(Boost_USE_STATIC_LIBS ON)
 
@@ -43,6 +70,11 @@ link_directories(${Boost_LIBRARY_DIRS})
 INCLUDE_DIRECTORIES(
    ${Boost_INCLUDE_DIRS}
 )
+include_directories( ${OIS_INCLUDE_DIRS}
+	${OGRE_INCLUDE_DIRS}
+	${OGRE_SAMPLES_INCLUDEPATH}
+)
+
 
 #ajout du répertoire de sources
 add_subdirectory(sources)
