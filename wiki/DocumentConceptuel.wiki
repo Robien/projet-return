@@ -1,0 +1,49 @@
+#summary Document de conception du projet return
+#labels Phase-Design
+
+= Projet Return =
+_Retour aux sources dans le monde d’Acharn_
+
+[http://i.imgur.com/60XShF4.png] <g:plusone size="medium"></g:plusone>
+
+Tout travail Copyrighté ©2012 par Robien
+Ecris par C. LOUISON
+
+Version # 1.0FR
+lundi, janvier 21, 2013
+
+== Détails ==
+===Historique du concept===
+_Mettre les ajouts/modifications qui ont été faite sur le wiki._
+
+===Légende===
+Code de couleur valable pour tout le document :
+  * possibilité de la première version,
+  * <font color=#FFAA00>possibilité secondaire, </font>
+  * <font color=#FF0000>amélioration future, </font>
+  * <font color=#008800>à rédiger ou à compléter.</font>
+
+==Table des matières==
+===Aperçu du jeu===
+  # ====Questions Communes====
+===Possibilités===
+  # ====Possibilités Général====
+  # ====Gameplay====
+  # ====<font color=#FF0000>Possibilités Multi-joueurs</font>====
+===Univers du jeu===
+  # ====Vue d’ensemble====
+  # ====Univers vivant====
+  # ====Survivre====
+  # ====Le Monde Physique====
+  # ====Système de Rendu====
+  # ====Camera====
+  # ====Moteur du jeu====
+  # ====Eclairage des models====
+===Personnages du jeu===
+===Interface Utilisateur===
+===Armes et Objets===
+===Jeu Solo===
+===<font color=#FF0000>Jeu Multijoueur</font>===
+===Rendu des personnages===
+===Refrains musicaux et Effets sonores===
+===Annexe===
