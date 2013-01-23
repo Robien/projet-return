@@ -1,0 +1,11 @@
+#summary Document de conception partie 7 : Rendu des personnages
+#labels Phase-Design
+
+= Rendu des personnages =
+
+== Vue d’ensemble ==
+Cel-shading
+Fournissez une aperçu de comment vos personnages seront rendu. Vous pouvez avoir décide d’inclure ceci autre part ou de l’avoir mis a l’écart pour fournir plus de détail a un lecteur spécifique.
+
+== Détail du rendu des Personnages #1 ==
+...
