@@ -1,0 +1,11 @@
+#summary Document de conception partie 4 : Interface Utilisateur
+#labels Phase-Design
+
+= <font color=#008800>Interface Utilisateur</font> =
+
+== Vue d’ensemble ==
+
+	Fournir un certain nombre de vue d’ensemble de votre interface et comme toutes les sections précédentes, détailler les composants de l’UI (Interface utilisateur) ci après.
+ 
+== Détail de l’interface utilisateur #1==
+...
