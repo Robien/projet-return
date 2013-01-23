@@ -1,0 +1,39 @@
+#summary Document de conception partie 3 : Personnages du jeu
+#labels Phase-Design
+
+= Personnages du jeu =
+
+== Vue d’ensemble ==
+Le joueur incarne un personnage humain à l’âge adulte. Ce personnage est choisi au début d’une partie il peut être de sexe féminin ou masculin. Le joueur à la possibilité de d’effectuer des modifications de l’apparence au début de la partie. Il doit aussi choisir des caractéristiques de base du personnage. Ce personnage évoluera au fur et à mesure qu’il gagnera en expérience. Son apparence pourra être modifiée par des objets qui l’équipent. Si le personnage venait à mourir toute la progression et le personnage seront perdu.
+
+==Le personnage principal==
+
+Vous n’êtes pas vraiment héros, vous êtes la même agglomération de cellules vivante que les autres espèces qui vivent dans cette univers (exception faite des Zombie dont les cellules plus ou moins morte). La différence avec les films c’est que le héros meurt à la fin, à vous de retarder le plus possible cette fatalité.
+
+==== Créer un personnage ====
+
+Au début d’une partie, le joueur choisir quel personnage il veut incarner. Il pourra choisir son sexe (féminin ou masculin), son apparence générale (suivant des personnages prés défini) et changer des détails dans son apparence (cheveux, corpulence…). Le joueur devra ensuite répartir un certain nombre de point de caractéristiques pour définir les caractéristiques de celui-ci. Il se retrouvera ensuite dans l’univers de jeu : au camp de base. Ou il pourra alors commencer son aventure.
+
+==== Évolution du personnage ====
+Une fois dans le mon le personnage va devoir faire face à différente épreuve. S’il les surmonte sans mourir il récoltera de l’expérience qui lui rapportera des points qu’il lui permettra d’augmenter certaine de ces caractéristiques. Il pourra aussi trouver divers objet qui affecterons ces caractéristiques, son apparence ou son comportement.
+
+==== Mort du personnage ====
+
+Si jamais le personnage venait à mourir, celui-ci serait perdu pour toujours. Les objets, l’expérience et la répartition des points de caractéristiques seraient perdu. Le corps du personnage persistera un moment dans le monde avant de finir enseveli ou dévoré (par la charogne ou d’autre joueur). Les autres joueurs pourront aussi lui donner une sépulture qui persistera dans le monde. Le corps pourra être dépouillé des objets qu’il portait par les autres joueurs tant que le corps n’a pas disparu.
+
+==== Caractéristiques ====
+
+  * *Courage* : le courage est important dans ce monde (à ne pas confondre avec la témérité qui risqué de vous envoyer rapidement manger les trèfles pas la racine). Cette caractéristique vous permettra de faire face à des créatures sans être terrorisé par celles-ci. Il existe plusieurs niveau de terreur allant du simple malus au niveau de vos caractéristiques jusqu’à la paralysie total. Même si vous réussissez à survivre à une attaque de panique, il n’est pas dit que vous n’aillé pas des séquelles plus ou moins permanant (et trouvé un bon psy n’est pas chose aisé dans le coin…).
+
+  * *Résistance* : il existe diffèrent type de résistance… résistance à la fin, aux radiation …
+ 
+  * *Endurance* : L’endurance de votre personnage défini combien de tatane vous supporterez avant de vous écroulerez.
+
+  * *Force* : la force correspond à la force brute du personnage, elle sera notamment utile quand vous taperez à mains nue ou  que vous devrez porter un gros sac à dos.
+
+  * *Agilité* : l’agilité est votre capacité à manipuler les objets, armes que vous utilisez. (C’est bien beau d’avoir une tronçonneuse mais si on pas dégourdie on peut se faire mal…)
+
+  * *Dextérité* : la dextérité défini votre capacité à faire quelque chose de vos mains. Savoir bricolé pourrait etre très utile dans ce monde. Elle permettra de déterminer si vous réussissez à : faire des pièges, bâtiments, assemblage d’objets … Mais attention vous pourriez vous faire mal si vous n’êtes pas très doué (c’est tout de suite moins héroïque de mourir explosé par une dynamite qu’on était en train de fabriquer).
+
+==== <font color=#008800>Les bonus et malus</font> ====
+
