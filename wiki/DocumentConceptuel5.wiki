@@ -1,0 +1,47 @@
+#summary Document de conception partie 5 : Armes et Objets
+#labels Phase-Design
+
+= Armes et Objets =
+
+== Vue d’ensemble ==
+Les objets vont séparer en trois classes : les armes, les véhicules et les autres objets. Cette partie détaille chacune de ses classes. Voir l’ « Annexe des objets » pour une liste réelle des objets
+
+== Les armes ==
+Les personnages peuvent s’équiper d’arme pour essayer de se défendre contre toute les menaces qui les entourent. Elle se définit suivant leur force de frappe, leur vitesse, leur durée de vie et d’autre caractéristiques. 
+
+==== Armes blanche ==== 
+
+Il existe des armes blanches qui sont en principe les premières armes que vous trouverez. Elle ne nécessite pas l’utilisation de munition. Elles ont une durée de vie qui diminuera avec l’utilisation. Beaucoup d’objet peuvent être utilisé comme arme.
+
+==== Armes à feu ==== 
+
+Les arme à veux sont beaucoup plus efficace mais sont aussi plus rare et plus contraignante. Elle nécessite des munitions qu’il vous faudra trouver.
+
+==== Autres armes ==== 
+D’autre arme peuvent être utilisé certaine peuvent utiliser des munitions comme un arc nécessitera des flèches.
+
+==== Pièges ==== 
+Le joueur pourra essayer de créer des pièges pour assurer ca protection ou celle du campement.
+
+== Les objets ==
+Beaucoup d’objet se trouve dans le monde, reste des civilisations passées. Ces objets peuvent parfois être équipés à votre personnage ou consommé, assemblés, modifiés pour en fabriquer d’autres ou troqués pour vous en procurer d’autres. Les objets peuvent toujours être jeté pour vous en servir comme des armes (mais si vous commencez  à lancer des pommes contre des zombies je pense qu’on peut plus rien pour vous). 
+
+==== Sac à dos ==== 
+C’est bien beau de ramasser toute les cochonneries que vous trouvé dans le désert mais après il faut les transporter. Heureusement les civilisations passé ont pensé à vous et on inventer : les sacs à dos. Ils ont une taille fixe. Il vous sera éventuellement possible de les améliorer ou d’en trouver des plus grands. Le nombre d’objet qui peut être mis dans un sac est aussi limité par votre force. Si vous avez un grand sac mais peux de force, vous ne pourrez pas remplir le sac (certaines places seront bloquées jusqu’à que vous ayez pris du muscle).
+
+==== Objets de base ==== 
+Les objets de base n’ont pas d’utilisation propre. Ils sont généralement utile pour construire ou réparé quelques chose. Certain objet peuvent être démonté pour récupérer des objets de base.
+
+==== Objet défectueux ==== 
+Les objets défectueux on généralement besoin d’être réparé ou d’être assemblé avec d’autres objets avant de pouvoir être utilisé correctement.
+
+==== Objet utilisable ==== 
+Ces objets ont une utilité plus ou moins défini. Certain utilité peuvent avoir un nombre utilisation limité, après quoi ils deviendront défectueux.
+
+==== Objets consommables ==== 
+Les objets consommables peuvent être consommés par le personnage ou d’autres personnages. En général ils vous apporteront un effet. 
+
+==== Les plans et schémas ==== 
+Les plans et les schémas vous permettront de fabrique des objets, amélioration, des pièges ou des bâtiments à partir d’objet. Ils sont constitués d’une petite description, d’une liste d’objets requis, et des détails de fabrication.
+
+== <font color=#008800>Les véhicules et moyen de locomotion</font> ==
