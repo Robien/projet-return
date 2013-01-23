@@ -1,0 +1,21 @@
+#summary Document de conception partie 6 : Jeu Solo
+#labels Phase-Design
+
+= <font color=#008800> Jeu Solo </font> =
+
+== Vue d’ensemble ==
+
+Décrivez l’expérience du jeu solo en quelques phrases.
+Ici-bas un aperçu des composants clé du jeu solo.
+
+== Détails du jeu solo #1== 
+...
+
+== Histoire ==
+
+Décrivez l’idée de votre histoire et ensuite la référer a un annexe ou un document séparé qui fournira tous les détails de l’histoire si elle est vraiment énorme.
+
+ 
+== Condition de victoire ==
+
+Il n'y a pas de condition de victoire, vous pouvez continuer indéfiniment votre partie, tant que vous ne mourrez pas.
