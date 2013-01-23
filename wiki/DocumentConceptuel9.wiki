@@ -1,0 +1,11 @@
+#summary Document de conception partie 9 : Choses diverses supplémentaires
+#labels Phase-Design
+
+= Choses diverses supplémentaires =
+== Vue d’ensemble ==
+
+Mettez toute les choses sur lesquels vous travailler et qui n’ont pas de section bienvenue ici.
+
+== Idée folle #1 ==
+
+...
