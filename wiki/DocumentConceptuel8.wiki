@@ -1,0 +1,27 @@
+#summary Document de conception partie 8 : Refrains musicaux et Effets sonores
+#labels Phase-Design
+
+= Refrains musicaux et Effets sonores =
+
+== Vue d’ensemble ==
+
+Pour immerger au mieux le joueur, l’univers il sera plongé dans un univers sonore. Il y aura deux grands types d’effet sonores : les musiques d’ambiance qui seront présente pour les moments d’action comme les combats, ou les entrées dans des lieux spécifique et les effets d’ambiances qui correspond au bruit que l’univers produit : bruit des armes, des ennemis …
+
+== Red Book Audio ==
+
+==== Musique d’ambiances ====
+La musique d’ambiance s’activera dans des périodes d’action : entré dans une de combat, donjons…
+
+==== Sons d’ambiances ====
+Les actions des personnages et l’environnement produiront des sons : tire d’une arme à feu, bruit des ennemis …
+
+==== <font color=#FF0000> Communication </font> ====
+Le joueur peux communiquer avec d’autre personnage, soit quand il est à côté d’eux soit grâce à des objets de communication comme des talky-walky. Il pourra dont entendre ces communications.
+
+== <font color=#008800>Son 3D</font> ==
+
+Dites quelles sorte d’API’s sonore vous allez utiliser ou non -dans le cas où cela peut l’être-. 
+
+== Design Sonore ==
+
+La musique d’ambiance déclenchée pendant les moments d’action s’adaptera à la situation. Pour les combats contre des bandits la musique d’un style plutôt rock, alors que les combats contre les zombies bénéficieront d’une ambiance plus pesante.	 
