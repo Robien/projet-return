@@ -1,0 +1,36 @@
+#summary Document de conception partie 10 : Jeu Multijoueur
+#labels Phase-Design
+
+= <font color=#FF0000>Jeu Multijoueur</font> =
+<font color=#008800> A faire </font>
+
+== Vue d’ensemble ==
+Le mode de jeu multi-joueur est un mode coopération.
+
+== Joueurs Max == 
+
+Dite combien de joueurs peuvent jouer a la fois.
+
+== Serveurs == 
+
+Votre jeu fonctionne t’il sur une technologie client-server ou peer-to-peer ou quelque chose d’autre.
+ 
+== Personnalisation == 
+
+Décrivez comment le joueur peut personnaliser son expérience multijoueur.
+
+== Internet == 
+
+Décrivez comment votre jeu fonctionnera sur Internet.
+
+== Sites de jeu == 
+
+Dites quel site de jeu vous voulez soutenir (note du traducteur : Je suppose qu’il est question des organismes tel GameSpy , WON , etc.) et quelle technologie vous avez l’intention d’utiliser pour faire cela. Peut être Directplay ou TCP/IP ou quelque chose de différent. C’est probablement une bonne idée de classer la partie technique dans une partie séparé, à vous de décider.
+
+== Persistance == 
+
+Dites si votre univers est persistant ou non.
+
+== Sauvegarde et chargement == 
+
+Expliquez comment vous pouvez sauvegarder un jeu multijoueur et ensuite le recharger. Si vous le pouvez, ou pourquoi n’est ce pas possible.
