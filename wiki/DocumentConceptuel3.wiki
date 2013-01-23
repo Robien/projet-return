@@ -37,3 +37,40 @@ Si jamais le personnage venait à mourir, celui-ci serait perdu pour toujours. L
 
 ==== <font color=#008800>Les bonus et malus</font> ====
 
+== Personnages et créatures neutres ==
+L’univers est peuplé de différents personnage et créatures de nature neutre, c’est-à-dire quelle ne vous attaqueront pas si vous ne les provoquez pas.
+
+==== Créatures classiques ==== 
+Ils apparaissent de façon à garder une population de taille constante dans des endroits de la zone de jeu/principale précis. Chaque espèce est donc rattacher à une zone de l’environnement. Lorsqu’un individu est tué, un nouvel individu réapparaitra dans la zone. Les individus sont assez identiques les uns des autres au sein d’une même espèce. Certaine espèce sont neutre, d’autre défendront leur territoire et vous attaqueront. Les créatures une fois mort peuvent offrir des objets récupérable par les joueur avant que leur corps de disparaissent.
+
+==== Les Villageois ====
+Les villageois sont tous les personnages neutres de base qui peuple l’univers. Ils sont généralement regroupés dans le campement de base mais peuvent parfois se cacher dans un endroit isolé de l’univers. Les villageois peuvent être des personnages non joueurs donneurs de quête, marchants, artisans, ou professeurs.
+	
+  * *Personnages clés* :
+    * Robien : Le Robien est un modèle de robot développé par la compagnie Robien Inc crée avant le cataclysme. Il existe peu de robot en état mais on peut trouver des pièces détachées éparpillées dans le monde. On ne connaît pas vraiment à quoi servaient ces robots avant le cataclysme. Il semble qu’il ait une fonction d’aide à la personne, mais certaines rumeurs disent que la Robien Inc serait impliqué dans le déclanchement de la catastrophe.
+    * Le Gamin : enfant d’une dizaine d’année se trouvant dans la base. Il s’occupe du groupe électrogène. Pendant une partie de la journée il vagabonde dans le désert a la recherche d’essence. Le reste du temps il se trouve près du groupe électrogène et propose d’acheter/vendre de l’essence et recharge les piles.
+    * Sir Barback : Ancien noble, habillé avec élégance : chapeau haut de forme, queue de pie. Il achète et vend les objets de valeur. Il offre aussi des récompenses pour des quêtes visant à trouver des objets précis.
+    * Le docteur : Ancien vétérinaire, reconvertir en docteur. Ça sera peut-être du travail de cochon, mais vous recoudra un bras pour presque rien. Proposera aussi des quêtes visant à réguler l’expansion d’une espèce animale.
+    * Arthur R. : Ancien bandit reconvertie en revendeur d’arme. Vous trouverez tout ce qu’il vous faut si vous y mettez le prix.
+
+== Ennemies et monstres ==
+L’univers grouille de bête et monstre de toute sorte dont leur seul point commun est leur soif de sang bien frais.
+
+==== Créatures classiques ==== 
+Comme les créatures classique neutre elle peuple une zone du jeu et tenteront de tuer toutes espèces qui viendraient sur son territoire.
+
+==== Brigands ====  
+Les brigands sont des humains comme vous qui ont décidé de profiter de la situation et de piller tout ce qu’il trouve pour survivre. Ils auront une attitude agressive envers toute autre être vivant qui pourrait transporter un objet de valeur.
+
+==== Zombies ==== 
+Les zombies sont apparus peu de temps après la catastrophe qui a détruit le monde comme vous le connaissez actuellement. Ils errent sans but apparent dans le monde à la recherche de chair fraiche. Il existe des zombies de toutes les espèces : humain, créature…
+Ils sont particulièrement actifs la nuit. La nuit correspond au moment de leur repas, pendant cette période il arrive qu’ils se regroupent pour traquer voir attaquer les habitations.
+
+==== Semi-héros ==== 
+Les semi-héros sont des créatures supérieures à la moyenne. On en trouve au sein des meutes de créatures en tant que chef de meute ou dans les donjons comme « boss intermédiaire ». Une fois morts ils offrent des objets spéciaux de valeur supérieure à la moyenne.
+
+==== Héros ====
+Les héros sont des créatures uniques, de force et d’intelligence supérieures aux autres créatures. Pour les vaincre il faudra en général appliquer une stratégie spécifique. Il peuple les donjons et sont les créatures ultime à tuer en fin de donjon. Une fois morts ils offrent des objets légendaires et uniques qui pourront vous être fort utile.
+
+== Créature génétiques ==
+Ces créature apparaissent de façon périodique, chaque génération est « plus robuste » que la précédente suivant les principes de sélection naturelle : les plus forts reste dans la tanière (population concentré dans un endroit « clôt ») et se multiplie, les plus faible sont virés de la zone de reproduction et vont dans le monde extérieur (zone de jeu/principale). La population à l’intérieur de la tanière est élever mais reste constante en nombre alors que les « rebus » envahisse le monde extérieur la population augmente naturellement. 
