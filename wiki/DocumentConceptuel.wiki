@@ -39,7 +39,7 @@ Code de couleur valable pour tout le document :
 ===[DocumentConceptuel3 Personnages du jeu]===
 ===[DocumentConceptuel4 Interface Utilisateur]===
 ===[DocumentConceptuel5 Armes et Objets]===
-===[DocumentConceptuel6Jeu Solo]===
+===[DocumentConceptuel6 Jeu Solo]===
 ===[DocumentConceptuel7 Rendu des personnages]===
 ===[DocumentConceptuel8 Refrains musicaux et Effets sonores]===
 ===[DocumentConceptuel9 Choses diverses supplémentaires]===
