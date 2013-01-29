@@ -27,6 +27,7 @@
 // I will check for std::exception. If you don't know what exception/try/catch means, you should learn C++ first.
 #include <exception>
 
+//main function
 int main()
 {
 
