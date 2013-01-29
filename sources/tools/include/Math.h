@@ -18,8 +18,8 @@ class Math
 {
 
 public:
-    Math();
-    ~Math();
+    Math(){}
+    ~Math(){}
 
 public:
     ///
@@ -28,39 +28,39 @@ public:
     /// \param y : y
     /// \return x^y
     ///
-    template<typename T> T pow(T x, unsigned int y);
+    template<typename T> T pow(T x, unsigned int y){}
     ///
     /// \brief calculate |x|
     /// \param x : x of type template
     /// \return |x|
     ///
-    template<typename T> T abs(T x);
+    template<typename T> T abs(T x){}
     ///
     /// \brief calculate HW(x)
     /// \param x : x 32 bits
     /// \return hw(x)
     ///
-    int hw(unsigned int x);
+    int hw(unsigned int x){}
     ///
     /// \brief calculate HD(x, y)
     /// \param x : x 32 bits
     /// \param y : x 32 bits
     /// \return hd(x)
     ///
-    int hd(unsigned int x, unsigned int y);
+    int hd(unsigned int x, unsigned int y){}
     ///
     /// \brief calculate HW(x)
     /// \param x : x 32 bits
     /// \return hw(x)
     ///
-    int hw2(unsigned int x);
+    int hw2(unsigned int x){}
     ///
     /// \brief calculate HD(x, y)
     /// \param x : x 32 bits
     /// \param y : x 32 bits
     /// \return hd(x)
     ///
-    int hd2(unsigned int x, unsigned int y);
+    int hd2(unsigned int x, unsigned int y){}
 
     ///
     /// \brief return integer sup of a float
@@ -68,11 +68,11 @@ public:
     /// \return roundsup(T val)
     ///
     template<typename T>
-    int roundsup(T val);
+    int roundsup(T val){}
 
 private:
 
 };
 
-#include "Math.tpp" //template file
+//#include "Math.tpp" //template file
 #endif
