@@ -18,8 +18,8 @@ class Math
 {
 
 public:
-    Math(){}
-    ~Math(){}
+    Math();
+    ~Math();
 
 public:
     ///
@@ -40,27 +40,27 @@ public:
     /// \param x : x 32 bits
     /// \return hw(x)
     ///
-    int hw(unsigned int x){}
+    int hw(unsigned int x);
     ///
     /// \brief calculate HD(x, y)
     /// \param x : x 32 bits
     /// \param y : x 32 bits
     /// \return hd(x)
     ///
-    int hd(unsigned int x, unsigned int y){}
+    int hd(unsigned int x, unsigned int y);
     ///
     /// \brief calculate HW(x)
     /// \param x : x 32 bits
     /// \return hw(x)
     ///
-    int hw2(unsigned int x){}
+    int hw2(unsigned int x);
     ///
     /// \brief calculate HD(x, y)
     /// \param x : x 32 bits
     /// \param y : x 32 bits
     /// \return hd(x)
     ///
-    int hd2(unsigned int x, unsigned int y){}
+    int hd2(unsigned int x, unsigned int y);
 
     ///
     /// \brief return integer sup of a float
