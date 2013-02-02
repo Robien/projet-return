@@ -1,0 +1,14 @@
+#summary Information pour la configuration et la compilation
+
+= Introduction =
+pour l'installation il suffit d'installer libogre-dev (1.8), libboost et subversion
+
+{{{
+svn checkout http://projet-return.googlecode.com/svn/trunk/ projet-return-read-only
+cmake .
+make
+sudo mkdir /usr/local/lib/OGRE
+ln -s /usr/lib/x86_64-linux-gnu/OGRE-1.8.0/ /usr/local/lib/OGRE/
+./bin/return
+}}}
+ 
