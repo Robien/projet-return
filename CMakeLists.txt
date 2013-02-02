@@ -21,14 +21,14 @@ if(UNIX)
 
 	elseif(EXISTS "/usr/share/OGRE/cmake")
 
-	  set(CMAKE_MODULE_PATH "/usr/share/OGRE/cmake/;${CMAKE_MODULE_PATH}")
+	  set(CMAKE_MODULE_PATH "/usr/share/OGRE/cmake/modules;${CMAKE_MODULE_PATH}")
 	  set(OGRE_SAMPLES_INCLUDEPATH "/usr/share/OGRE/samples/Common/include/") # Otherwise, Otherwise, this one
 
 	else ()
 	  message(SEND_ERROR "Failed to find module path.")
 	endif(EXISTS "/usr/local/lib/OGRE/cmake")
 endif(UNIX)
-
+message (${CMAKE_MODULE_PATH})
 
 #nom du projet
 project (return)
